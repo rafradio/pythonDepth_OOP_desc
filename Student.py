@@ -1,9 +1,9 @@
 from OpenFile import OpenFile
-from Range import Range
+from StringValue import StringValue
 
 class Student:
-    firstName = Range()
-    lastName = Range()
+    firstName = StringValue()
+    lastName = StringValue()
 
     def __init__(self, *args):
         self.id = args[0]
