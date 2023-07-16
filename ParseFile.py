@@ -29,6 +29,6 @@ class ParseFile:
                     sum += int(row[2])
                     count += 1
 
-        if count != 0:
-            return sum / count
-        else: return None
+        return sum / count if count != 0 else None
+            
+        
